@@ -38,12 +38,18 @@ public class calculate
     public void divide()
     {
         num1 = 60;
-
         num2 = 40;
-
         result = num1  / num2;
-
+        //we add comment
         System.out.println(" divide = " + result);
+    }
+    public void rem()
+    {
+        num1 = 955;
+        num2 = 809;
+        result = num1  % num2;
+
+        System.out.println(" rem = " + result);
     }
 
 
