@@ -35,5 +35,17 @@ public class calculate
 
         System.out.println("Multiplication = " + result);
     }
+    public void divide()
+    {
+        num1 = 60;
+
+        num2 = 40;
+
+        result = num1  / num2;
+
+        System.out.println(" divide = " + result);
+    }
+
+
 }
 
