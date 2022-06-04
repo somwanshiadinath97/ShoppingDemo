@@ -25,5 +25,15 @@ public class calculate
         System.out.println("Subtraction = " + result);
 
     }
+    public void mul()
+    {
+        num1 = 60;
+
+        num2 = 40;
+
+        result = num1  * num2;
+
+        System.out.println("Multiplication = " + result);
+    }
 }
 
